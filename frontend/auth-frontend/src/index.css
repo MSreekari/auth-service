@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: Mont;
+    src: url("../src/assets/fonts/Mont-HeavyDEMO.otf");
+}
+
+@font-face {
+    font-family: Lemonmilk;
+    src: url("../src/assets/fonts/LEMONMILK-Medium.otf");
+}
+
+@theme{
+    --font-mont : Mont, "sans-serif";
+    --font-lemonmilk : Lemonmilk, "sans-serif";
+}
